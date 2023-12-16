@@ -1,1 +1,4 @@
 # Advent-of-code-day-15
+Hash function takes a string (inpt) and initializes a variable (value) to 0.
+(alphabet)iterates through each character  in the string.for each character, it adds its ASCII code to value, multiplies by 17, and takes the remainder after dividing by 256.in main function i took  the entire initialization sequence (input_sequence) as input,to calculate splits the sequence by commas (steps) and iterates through each step.by Adding individual hashes It removes newline characters from each step and calls the hash function on it, then adds the result to a running total (total). 
+ it returns the final sum of all step hashes so that is i got solution.
